@@ -1,4 +1,4 @@
-# How to Automate Filling Out Forms and Clicking Buttons with Selenium
+# How to Automate Filling Out Forms and Send Emails
 Interacting with Web Elements Using Selenium
 the focus shifts to interacting with those elements that have been found, such as typing into an input field or clicking on a button.
 
@@ -26,3 +26,11 @@ Selenium allows for automated interaction with web elements such as clicking lin
 The .click() and .send_keys() methods are essential for simulating user actions in Selenium.
 Special keyboard keys like ENTER or SHIFT can be sent using the Keys class from selenium.webdriver.common.keys.
 Identifying elements by their attributes (such as name or link text) and using appropriate selectors is crucial for automation tasks.
+
+# How to Send Emails with Python using SMTP:
+Python's smtplib module allows sending emails programmatically via SMTP servers.
+Secure connections are established using TLS, and authentication requires app-specific passwords for Gmail and Yahoo.
+Including a subject line and proper formatting helps prevent emails from being marked as spam.
+The project involves reading and updating a CSV file, checking dates, and using dictionary comprehensions with pandas.
+Randomized letter templates are selected and personalized using string replacement.
+The final step is sending the email using the smtplib library, ensuring all variables are correctly updated and saved.
