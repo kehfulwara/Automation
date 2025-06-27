@@ -1,0 +1,6 @@
+Python's smtplib module allows sending emails programmatically via SMTP servers.
+Secure connections are established using TLS, and authentication requires app-specific passwords for Gmail and Yahoo.
+Including a subject line and proper formatting helps prevent emails from being marked as spam.
+The project involves reading and updating a CSV file, checking dates, and using dictionary comprehensions with pandas.
+Randomized letter templates are selected and personalized using string replacement.
+The final step is sending the email using the smtplib library, ensuring all variables are correctly updated and saved.
